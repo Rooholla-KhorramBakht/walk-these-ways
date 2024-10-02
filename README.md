@@ -95,7 +95,8 @@ pip3 install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu
 4. Verify the installation by try running an example
 
     ```bash
-    python examples/1080_balls_of_solitude.py
+    cd PATH_TO_ISAAC_GYM/python/examples
+    python 1080_balls_of_solitude.py
     ```
 5. For troubleshooting check docs `isaacgym/docs/index.html`
 
